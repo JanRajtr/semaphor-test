@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9734B323ED6870008392DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9734B223ED6870008392DF /* AppDelegate.swift */; };
+		BF9734B523ED6870008392DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9734B423ED6870008392DF /* SceneDelegate.swift */; };
+		BF9734B823ED6870008392DF /* semaphor_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF9734B623ED6870008392DF /* semaphor_test.xcdatamodeld */; };
+		BF9734BA23ED6870008392DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9734B923ED6870008392DF /* ContentView.swift */; };
+		BF9734BC23ED6872008392DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9734BB23ED6872008392DF /* Assets.xcassets */; };
+		BF9734BF23ED6872008392DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9734BE23ED6872008392DF /* Preview Assets.xcassets */; };
+		BF9734C223ED6872008392DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9734C023ED6872008392DF /* LaunchScreen.storyboard */; };
+		BF9734CD23ED6873008392DF /* semaphor_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9734CC23ED6873008392DF /* semaphor_testTests.swift */; };
+		BF9734D823ED6873008392DF /* semaphor_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9734D723ED6873008392DF /* semaphor_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF9734C923ED6873008392DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9734A723ED6870008392DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9734AE23ED6870008392DF;
+			remoteInfo = "semaphor-test";
+		};
+		BF9734D423ED6873008392DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9734A723ED6870008392DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9734AE23ED6870008392DF;
+			remoteInfo = "semaphor-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF9734AF23ED6870008392DF /* semaphor-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "semaphor-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9734B223ED6870008392DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF9734B423ED6870008392DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF9734B723ED6870008392DF /* semaphor_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = semaphor_test.xcdatamodel; sourceTree = "<group>"; };
+		BF9734B923ED6870008392DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF9734BB23ED6872008392DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF9734BE23ED6872008392DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF9734C123ED6872008392DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF9734C323ED6872008392DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9734C823ED6873008392DF /* semaphor-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "semaphor-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9734CC23ED6873008392DF /* semaphor_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = semaphor_testTests.swift; sourceTree = "<group>"; };
+		BF9734CE23ED6873008392DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9734D323ED6873008392DF /* semaphor-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "semaphor-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9734D723ED6873008392DF /* semaphor_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = semaphor_testUITests.swift; sourceTree = "<group>"; };
+		BF9734D923ED6873008392DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9734AC23ED6870008392DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9734C523ED6873008392DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9734D023ED6873008392DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9734A623ED6870008392DF = {
+			isa = PBXGroup;
+			children = (
+				BF9734B123ED6870008392DF /* semaphor-test */,
+				BF9734CB23ED6873008392DF /* semaphor-testTests */,
+				BF9734D623ED6873008392DF /* semaphor-testUITests */,
+				BF9734B023ED6870008392DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9734B023ED6870008392DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9734AF23ED6870008392DF /* semaphor-test.app */,
+				BF9734C823ED6873008392DF /* semaphor-testTests.xctest */,
+				BF9734D323ED6873008392DF /* semaphor-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9734B123ED6870008392DF /* semaphor-test */ = {
+			isa = PBXGroup;
+			children = (
+				BF9734B223ED6870008392DF /* AppDelegate.swift */,
+				BF9734B423ED6870008392DF /* SceneDelegate.swift */,
+				BF9734B923ED6870008392DF /* ContentView.swift */,
+				BF9734BB23ED6872008392DF /* Assets.xcassets */,
+				BF9734C023ED6872008392DF /* LaunchScreen.storyboard */,
+				BF9734C323ED6872008392DF /* Info.plist */,
+				BF9734B623ED6870008392DF /* semaphor_test.xcdatamodeld */,
+				BF9734BD23ED6872008392DF /* Preview Content */,
+			);
+			path = "semaphor-test";
+			sourceTree = "<group>";
+		};
+		BF9734BD23ED6872008392DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF9734BE23ED6872008392DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF9734CB23ED6873008392DF /* semaphor-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9734CC23ED6873008392DF /* semaphor_testTests.swift */,
+				BF9734CE23ED6873008392DF /* Info.plist */,
+			);
+			path = "semaphor-testTests";
+			sourceTree = "<group>";
+		};
+		BF9734D623ED6873008392DF /* semaphor-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9734D723ED6873008392DF /* semaphor_testUITests.swift */,
+				BF9734D923ED6873008392DF /* Info.plist */,
+			);
+			path = "semaphor-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9734AE23ED6870008392DF /* semaphor-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9734DC23ED6873008392DF /* Build configuration list for PBXNativeTarget "semaphor-test" */;
+			buildPhases = (
+				BF9734AB23ED6870008392DF /* Sources */,
+				BF9734AC23ED6870008392DF /* Frameworks */,
+				BF9734AD23ED6870008392DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "semaphor-test";
+			productName = "semaphor-test";
+			productReference = BF9734AF23ED6870008392DF /* semaphor-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF9734C723ED6873008392DF /* semaphor-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9734DF23ED6873008392DF /* Build configuration list for PBXNativeTarget "semaphor-testTests" */;
+			buildPhases = (
+				BF9734C423ED6873008392DF /* Sources */,
+				BF9734C523ED6873008392DF /* Frameworks */,
+				BF9734C623ED6873008392DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9734CA23ED6873008392DF /* PBXTargetDependency */,
+			);
+			name = "semaphor-testTests";
+			productName = "semaphor-testTests";
+			productReference = BF9734C823ED6873008392DF /* semaphor-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF9734D223ED6873008392DF /* semaphor-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9734E223ED6873008392DF /* Build configuration list for PBXNativeTarget "semaphor-testUITests" */;
+			buildPhases = (
+				BF9734CF23ED6873008392DF /* Sources */,
+				BF9734D023ED6873008392DF /* Frameworks */,
+				BF9734D123ED6873008392DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9734D523ED6873008392DF /* PBXTargetDependency */,
+			);
+			name = "semaphor-testUITests";
+			productName = "semaphor-testUITests";
+			productReference = BF9734D323ED6873008392DF /* semaphor-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9734A723ED6870008392DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = janrajtr;
+				TargetAttributes = {
+					BF9734AE23ED6870008392DF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BF9734C723ED6873008392DF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BF9734AE23ED6870008392DF;
+					};
+					BF9734D223ED6873008392DF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BF9734AE23ED6870008392DF;
+					};
+				};
+			};
+			buildConfigurationList = BF9734AA23ED6870008392DF /* Build configuration list for PBXProject "semaphor-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF9734A623ED6870008392DF;
+			productRefGroup = BF9734B023ED6870008392DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9734AE23ED6870008392DF /* semaphor-test */,
+				BF9734C723ED6873008392DF /* semaphor-testTests */,
+				BF9734D223ED6873008392DF /* semaphor-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9734AD23ED6870008392DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9734C223ED6872008392DF /* LaunchScreen.storyboard in Resources */,
+				BF9734BF23ED6872008392DF /* Preview Assets.xcassets in Resources */,
+				BF9734BC23ED6872008392DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9734C623ED6873008392DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9734D123ED6873008392DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9734AB23ED6870008392DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9734B323ED6870008392DF /* AppDelegate.swift in Sources */,
+				BF9734B823ED6870008392DF /* semaphor_test.xcdatamodeld in Sources */,
+				BF9734BA23ED6870008392DF /* ContentView.swift in Sources */,
+				BF9734B523ED6870008392DF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9734C423ED6873008392DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9734CD23ED6873008392DF /* semaphor_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9734CF23ED6873008392DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9734D823ED6873008392DF /* semaphor_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF9734CA23ED6873008392DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9734AE23ED6870008392DF /* semaphor-test */;
+			targetProxy = BF9734C923ED6873008392DF /* PBXContainerItemProxy */;
+		};
+		BF9734D523ED6873008392DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9734AE23ED6870008392DF /* semaphor-test */;
+			targetProxy = BF9734D423ED6873008392DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF9734C023ED6872008392DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9734C123ED6872008392DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF9734DA23ED6873008392DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF9734DB23ED6873008392DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF9734DD23ED6873008392DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"semaphor-test/Preview Content\"";
+				DEVELOPMENT_TEAM = SR8V896744;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "semaphor-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.janrajtr.semaphor-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF9734DE23ED6873008392DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"semaphor-test/Preview Content\"";
+				DEVELOPMENT_TEAM = SR8V896744;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "semaphor-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.janrajtr.semaphor-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF9734E023ED6873008392DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR8V896744;
+				INFOPLIST_FILE = "semaphor-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.janrajtr.semaphor-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/semaphor-test.app/semaphor-test";
+			};
+			name = Debug;
+		};
+		BF9734E123ED6873008392DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR8V896744;
+				INFOPLIST_FILE = "semaphor-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.janrajtr.semaphor-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/semaphor-test.app/semaphor-test";
+			};
+			name = Release;
+		};
+		BF9734E323ED6873008392DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR8V896744;
+				INFOPLIST_FILE = "semaphor-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.janrajtr.semaphor-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "semaphor-test";
+			};
+			name = Debug;
+		};
+		BF9734E423ED6873008392DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR8V896744;
+				INFOPLIST_FILE = "semaphor-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.janrajtr.semaphor-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "semaphor-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9734AA23ED6870008392DF /* Build configuration list for PBXProject "semaphor-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9734DA23ED6873008392DF /* Debug */,
+				BF9734DB23ED6873008392DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9734DC23ED6873008392DF /* Build configuration list for PBXNativeTarget "semaphor-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9734DD23ED6873008392DF /* Debug */,
+				BF9734DE23ED6873008392DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9734DF23ED6873008392DF /* Build configuration list for PBXNativeTarget "semaphor-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9734E023ED6873008392DF /* Debug */,
+				BF9734E123ED6873008392DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9734E223ED6873008392DF /* Build configuration list for PBXNativeTarget "semaphor-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9734E323ED6873008392DF /* Debug */,
+				BF9734E423ED6873008392DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF9734B623ED6870008392DF /* semaphor_test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF9734B723ED6870008392DF /* semaphor_test.xcdatamodel */,
+			);
+			currentVersion = BF9734B723ED6870008392DF /* semaphor_test.xcdatamodel */;
+			path = semaphor_test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF9734A723ED6870008392DF /* Project object */;
+}
