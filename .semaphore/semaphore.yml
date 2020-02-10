@@ -22,4 +22,3 @@ blocks:
         - name: Build
           commands:
             - bundle exec xcversion select 11.2.1
-            - artifact push job SemaphoreTest.ipa
