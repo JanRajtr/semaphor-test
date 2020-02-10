@@ -7,7 +7,11 @@ agent:
 blocks:
   - name: 'Block #1'
     task:
-      jobs:
-        - name: 'Job #1'
-          commands:
-            - bundle exec xcversion select 11.2.1'
+      jobs: []
+    prologue:
+      commands:
+        - checkout
+    jobs:
+      - name: 'Job #1'
+        commands:
+          - bundle exec xcversion select 11.2.1'
