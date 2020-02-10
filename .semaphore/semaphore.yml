@@ -9,4 +9,5 @@ blocks:
     task:
       jobs:
         - name: 'Job #1'
-          commands: []
+          commands:
+            - ' - bundle exec xcversion select 11.2.1'
