@@ -23,6 +23,7 @@ blocks:
       secrets:
         - name: FASTLANE_DONT_STORE_PASSWORD
         - name: FASTLANE_PASSWORD
+        - name: FASTLANE_SESSION
         - name: FASTLANE_USER
   - name: Fastlane Build
     task:
@@ -42,4 +43,5 @@ blocks:
       secrets:
         - name: FASTLANE_DONT_STORE_PASSWORD
         - name: FASTLANE_PASSWORD
+        - name: FASTLANE_SESSION
         - name: FASTLANE_USER
