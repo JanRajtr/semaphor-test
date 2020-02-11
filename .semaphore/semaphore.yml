@@ -12,10 +12,4 @@ blocks:
           commands:
             - bundle install
             - bundle exec fastlane test
-      env_vars:
-        - name: FASTLANE_DONT_STORE_PASSWORD
-          value: '1'
-        - name: FASTLANE_USER
-          value: jan@rajtr.cz
-        - name: FASTLANE_PASSWORD
-          value: XxQ51ekIC
+      env_vars: []
