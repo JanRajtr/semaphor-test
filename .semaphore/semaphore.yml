@@ -20,6 +20,10 @@ blocks:
         - name: bundle exec fastlane test
           commands:
             - bundle exec fastlane test
+      secrets:
+        - name: FASTLANE_DONT_STORE_PASSWORD
+        - name: FASTLANE_PASSWORD
+        - name: FASTLANE_USER
   - name: Fastlane Build
     task:
       env_vars:
@@ -35,3 +39,7 @@ blocks:
         - name: bundle exec fastlane build
           commands:
             - bundle exec fastlane build
+      secrets:
+        - name: FASTLANE_DONT_STORE_PASSWORD
+        - name: FASTLANE_PASSWORD
+        - name: FASTLANE_USER
