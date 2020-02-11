@@ -5,7 +5,7 @@ agent:
     type: a1-standard-4
     os_image: macos-mojave-xcode11
 blocks:
-  - name: Run tests
+  - name: setup
     task:
       env_vars:
         - name: LANG
@@ -17,7 +17,15 @@ blocks:
           - bundle config set path 'vendor/bundle'
           - cache store
       jobs:
-        - name: Test
+        - name: 'Job #1'
+          commands:
+            - export FASTLANE_DONT_STORE_PASSWORD ="1"
+            - export FASTLANE_USER ="jan@rajtr.cz"
+            - export FASTLANE_PASSWORD ="XxQ51ekIC"
+  - name: test
+    task:
+      jobs:
+        - name: 'Job #1'
           commands:
             - bundle install
             - bundle exec fastlane test
