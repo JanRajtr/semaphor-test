@@ -12,4 +12,4 @@ jobs:
     - name: Run a one-line script
       run: echo Hello, world!
     - name: Run a multi-line script
-      run: xcodebuild build test -scheme "semaphor-test"
+      run: xcodebuild -project 'semaphor-test.xcodeproj' -scheme 'semaphor-test' -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.2' clean test
